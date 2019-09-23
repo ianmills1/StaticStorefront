@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(6, 112, 72);
+}
+
+p {
+    font-size: 0.8em;
+}
+
+li {
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(223, 65, 65);
+}
+
+/* Figure out where to place .contentWrapper code and what it does */
+
+.contentWrapper {
+    margin: 0 auto;
+}
+
+/* Header and navbar code */
+
+header {
+    padding: 2.5em 2.5em;
+    background: rgb(80, 61, 61);
+    display: block;
+}
+
+nav {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding-left: 1em;
+    vertical-align: middle;
+}
+
+#facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid black;
+}
+
+#twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid black;
+}
+
+#instagram {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid black;
+}
+
+/* Site tagline */
+
+#siteTagline {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 250px;
+    margin-left: 50px;
+    position: relative;
+    display: block;
+    float: left;
+    border: solid black;
+    padding: 15px 15px;
+    background: rgb(165, 158, 158);
+}
+
+.sidebar h3 {
+    text-transform: uppercase;
+}
+
+.sidebar p {
+    padding-top: 3px;
+    padding-bottom: 25px;
+}
+
+.sidebar ul {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+/* Main section with pictures */
+
+#main {
+    display: inline-block;
+    border: solid black;
+    margin: 5px 5px 5px 5px;
+    position: relative;
+    background: rgb(165, 158, 158);
+}
+
+.box {
+    float: left;
+    position: relative;
+    width: 250px;
+}
+
+.breed {
+    width: 100%;
+    height: 200px;
+    border-radius: 2%;
+    padding: 1px 1px 1px 1px;
+}
+
+.box p {
+    padding-top: 3px;
+}
+
+/* Footer */
+
+#loadMore {
+    background: rgb(165, 158, 158);
+    border-radius: 5%;
+    display: block;
+    position: relative;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
